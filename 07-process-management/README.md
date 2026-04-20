@@ -16,7 +16,7 @@ A process is an instance of a running program. Linux provides multiple utilities
 - `kill PID` – Terminate a process by PID
 - `pkill processname` – Terminate a process by name
 - `kill -9 PID` – Force kill a process
-- `pkill -9 processname` – Kill all instances of a process
+- `pkill -9 processname` – Kills all (instances of a) process with the name 'processname'  
 - `kill -STOP PID` – Stop a running process
 - `kill -CONT PID` – Resume a stopped process
 - `renice -n 10 -p PID` – Lower priority of a process
